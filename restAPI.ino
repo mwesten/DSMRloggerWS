@@ -128,6 +128,7 @@ String wsString;
   wsString += "\n\r,\"Energy_Delivered\":\"" + String(EnergyDelivered, 3) + "\"";
   wsString += "\n\r,\"Energy_Returned\":\"" + String(EnergyReturned, 3) + "\"";
   wsString += "\n\r,\"Gas_Delivered\":\"" + String(GasDelivered, 2) + "\"";
+  wsString += "\n\r,\"Electricity_Tariff\":\"" + String(ElectricityTariff) + "\"";
   wsString += "\n\r,\"Energy_Delivered_Tariff1\":\"" + String(EnergyDeliveredTariff1, 3) + "\"";
   wsString += "\n\r,\"Energy_Delivered_Tariff2\":\"" + String(EnergyDeliveredTariff2, 3) + "\"";
   wsString += "\n\r,\"Energy_Returned_Tariff1\":\"" + String(EnergyReturnedTariff1, 3) + "\"";
